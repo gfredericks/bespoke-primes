@@ -1,0 +1,64 @@
+body {
+  font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
+  max-width: 900px;
+  margin: 0 auto;
+  padding-top: 72px;
+  -webkit-font-smoothing: antialiased;
+  font-size: 1.125em;
+  color: #333;
+  line-height: 1.5em;
+}
+
+h1, h2, h3 {
+  color: #000;
+}
+h1 {
+  font-size: 2.5em
+}
+
+h2 {
+  font-size: 2em
+}
+
+h3 {
+  font-size: 1.5em
+}
+
+pre.error {
+    border: 3px solid #944;
+    padding: 2em;
+}
+
+.regex-form, .regex-form input {
+    font-size: 150%;
+}
+
+.regex-form input {
+    font-family: monospace;
+    width: 20em;
+}
+
+.regex-form select {
+    font-size: 115%;
+}
+
+.search button {
+    /* font-size: 175%; */
+    padding: 0px; margin: 0px; border: 0px;
+    background-color: white;
+}
+
+.number {
+    width: 70%;
+    word-wrap: break-word;
+    overflow-wrap: break-word;
+    /* white-space: pre-wrap; */
+}
+
+div.search-header {
+    min-height: 3.5em;
+}
+
+.paused {
+    color: #999;
+}
